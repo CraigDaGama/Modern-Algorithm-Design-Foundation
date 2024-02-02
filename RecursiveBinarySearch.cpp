@@ -17,9 +17,7 @@ int BinarySearch(int a[], int key, int low, int high)
 {
    int mid;
    if(low > high)
-   {
-    cout<<"element not found";
-   }
+        cout<<""<<key<<" not found"<<endl;
    else
    {
     mid = (low + high)/2;
