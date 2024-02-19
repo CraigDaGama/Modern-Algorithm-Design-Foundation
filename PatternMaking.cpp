@@ -24,9 +24,9 @@ int main()
     int n,m,p;
     string text,pattern;
     cout<<"Enter some text"<<endl;
-    cin>>text;
+    getline(cin,text);
     cout<<"Enter pattern to be found"<<endl;
-    cin>>pattern;
+    getline(cin,pattern);
 
     n=text.size();
     m=pattern.size();
